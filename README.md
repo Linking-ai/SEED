@@ -1,11 +1,5 @@
 # SEED
-SEED: Accelerating Reasoning Tree Construction via Scheduled Speculative Decoding
-
-<h5 align=center>
-
-[![arXiv](https://img.shields.io/badge/Arxiv-2406.18139-red?logo=arxiv&label=Arxiv&color=red)](https://arxiv.org/abs/2406.18200)
-
-</h5>
+SEED: Accelerating Reasoning Tree Construction via Scheduled Speculative Decoding[![arXiv](https://img.shields.io/badge/Arxiv-2406.18139-red?logo=arxiv&label=Arxiv&color=red)](https://arxiv.org/abs/2406.18200)
 
 ## Overview
 Large Language Models (LLMs) demonstrate remarkable emergent abilities across various tasks, yet fall short of complex reasoning and planning tasks. The tree-search-based reasoning methods address this by surpassing the capabilities of chain-of-thought prompting, encouraging exploration of intermediate steps. However, such methods introduce significant inference latency due to the systematic exploration and evaluation of multiple thought paths. This paper introduces SeeD, a novel and efficient inference framework to optimize runtime speed and GPU memory management concurrently. By employing a scheduled speculative execution, SeeD efficiently handles multiple iterations for the thought generation and the state evaluation, leveraging a rounds-scheduled strategy to manage draft model dispatching. Extensive experimental evaluations on three reasoning datasets demonstrate superior speedup performance of SeeD, providing a viable path for batched inference in training-free speculative decoding.
@@ -17,11 +11,14 @@ Large Language Models (LLMs) demonstrate remarkable emergent abilities across va
 
 
 ## Environment Setup
+```
 transformers >= 4.35.0
 Python version >= 3.9
 PyTorch version >= 1.11.0
+```
 
 ## Key Options
+```
 --draft_model_path          Draft model path.
 --target_model_path         Target model path.
 --tokenizer_path            Tokenizer path. If not provided, use the Draft/Target model path.
@@ -30,6 +27,7 @@ PyTorch version >= 1.11.0
 --k-config                  Use comma separations, e.g. `--k-config 2,1,1`.
 --replacement               Sampling with replacement.(Flase-MCSD, True-SD)
 --temperature               0.0, 0.2, 1.0, ...
+```
 
 
 ## TODO
