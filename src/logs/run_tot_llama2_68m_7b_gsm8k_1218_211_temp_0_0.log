@@ -1,0 +1,55 @@
+2024-12-18 15:48:29,901 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2024-12-18 15:48:35,455 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2024-12-18 15:48:35,600 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2024-12-18 15:48:35,745 - INFO - We will use 90% of the memory on device 0 for storing the model, and 10% for the buffer to avoid OOM. You can set `max_memory` in to a higher value to use more memory (at your own risk).
+2024-12-18 15:48:35,954 - INFO - --------------0--------------
+2024-12-18 15:49:02,011 - INFO - ******************
+2024-12-18 15:49:02,011 - INFO - AR_gen_time: 24.38088059425354
+2024-12-18 15:49:02,011 - INFO - AR_gen_tht_time: 11.069912433624268
+2024-12-18 15:49:02,011 - INFO - AR_gen_eval_time: 13.310968160629272
+2024-12-18 15:49:02,011 - INFO - AR_gen_tht_acc: 0.0
+2024-12-18 15:49:02,011 - INFO - AR_gen_eval_acc: 0.0
+2024-12-18 15:49:02,011 - INFO - AR_gen_acc: 0.0
+2024-12-18 15:49:21,226 - INFO - ******************
+2024-12-18 15:49:21,226 - INFO - SD_gen_time: 18.25295639038086
+2024-12-18 15:49:21,226 - INFO - SD_gen_tht_time: 6.154934644699097
+2024-12-18 15:49:21,226 - INFO - SD_gen_eval_time: 12.098021745681763
+2024-12-18 15:49:21,226 - INFO - SD_gen_tht_acc: 0.20948420948420945
+2024-12-18 15:49:21,226 - INFO - SD_gen_eval_acc: 0.24545699914120966
+2024-12-18 15:49:21,226 - INFO - SD_gen_acc: 0.22747060431270955
+2024-12-18 15:49:39,829 - INFO - ******************
+2024-12-18 15:49:39,830 - INFO - SD_SEED_gen_time: 17.290193796157837
+2024-12-18 15:49:39,831 - INFO - SD_SEED_gen_tht_time: 6.421242713928223
+2024-12-18 15:49:39,831 - INFO - SD_SEED_gen_eval_time: 10.868951082229614
+2024-12-18 15:49:39,831 - INFO - SD_SEED_gen_tht_acc: 0.30793650793650795
+2024-12-18 15:49:39,831 - INFO - SD_SEED_gen_eval_acc: 0.36075294369450117
+2024-12-18 15:49:39,831 - INFO - SD_SEED_gen_acc: 0.33434472581550456
+2024-12-18 15:49:56,769 - INFO - ******************
+2024-12-18 15:49:56,769 - INFO - MCSD_gen_time: 15.717024326324463
+2024-12-18 15:49:56,769 - INFO - MCSD_gen_tht_time: 6.6354639530181885
+2024-12-18 15:49:56,769 - INFO - MCSD_gen_eval_time: 9.081560373306274
+2024-12-18 15:49:56,769 - INFO - MCSD_gen_tht_acc: 0.2582421610130665
+2024-12-18 15:49:56,769 - INFO - MCSD_gen_eval_acc: 0.3011407387183785
+2024-12-18 15:49:56,769 - INFO - MCSD_gen_acc: 0.2796914498657225
+2024-12-18 15:50:15,378 - INFO - ******************
+2024-12-18 15:50:15,378 - INFO - MCSD_SEED_gen_time: 17.243018865585327
+2024-12-18 15:50:15,378 - INFO - MCSD_SEED_gen_tht_time: 5.975358724594116
+2024-12-18 15:50:15,378 - INFO - MCSD_SEED_gen_eval_time: 11.267660140991211
+2024-12-18 15:50:15,378 - INFO - MCSD_SEED_gen_tht_acc: 0.43316624895572264
+2024-12-18 15:50:15,378 - INFO - MCSD_SEED_gen_eval_acc: 0.45944100836251067
+2024-12-18 15:50:15,378 - INFO - MCSD_SEED_gen_acc: 0.44630362865911666
+2024-12-18 15:50:15,658 - INFO - --------------1--------------
+2024-12-18 15:50:28,440 - INFO - ******************
+2024-12-18 15:50:28,440 - INFO - AR_gen_time: 12.070785522460938
+2024-12-18 15:50:28,440 - INFO - AR_gen_tht_time: 4.283362627029419
+2024-12-18 15:50:28,440 - INFO - AR_gen_eval_time: 7.7874228954315186
+2024-12-18 15:50:28,440 - INFO - AR_gen_tht_acc: 0.0
+2024-12-18 15:50:28,440 - INFO - AR_gen_eval_acc: 0.0
+2024-12-18 15:50:28,440 - INFO - AR_gen_acc: 0.0
+2024-12-18 15:50:37,618 - INFO - ******************
+2024-12-18 15:50:37,618 - INFO - SD_gen_time: 8.400606155395508
+2024-12-18 15:50:37,618 - INFO - SD_gen_tht_time: 2.6801931858062744
+2024-12-18 15:50:37,618 - INFO - SD_gen_eval_time: 5.720412969589233
+2024-12-18 15:50:37,618 - INFO - SD_gen_tht_acc: 0.3672385620915033
+2024-12-18 15:50:37,618 - INFO - SD_gen_eval_acc: 0.33765432098765435
+2024-12-18 15:50:37,618 - INFO - SD_gen_acc: 0.3524464415395788
