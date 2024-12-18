@@ -1,6 +1,7 @@
-# SEED: Accelerating Reasoning Tree Construction via Scheduled Speculative Decoding
+# SEED: Accelerating Reasoning Tree Construction via Scheduled Speculative Decoding 
 [![arXiv](https://img.shields.io/badge/Arxiv-2406.18139-red?logo=arxiv&label=Arxiv&color=red)](https://arxiv.org/abs/2406.18200)
 
+Accepted by **COLING2025**
 ## Overview
 We introduce SeeD, a novel and efficient inference framework to optimize runtime speed and GPU memory management concurrently. By employing a scheduled speculative execution, SeeD efficiently handles multiple iterations for the thought generation and the state evaluation, leveraging a rounds-scheduled strategy to manage draft model dispatching.
 
